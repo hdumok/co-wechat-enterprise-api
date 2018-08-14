@@ -1,0 +1,28 @@
+{
+  "name": "co-wechat-enterprise-api",
+  "version": "0.0.1",
+  "description": "基于 co-wechat/wechat-enterprise-api，微信公共平台企业号版本Node API库 ES6版本",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "doc": "dox -a <./lib/* > API.md"
+  },
+  "author": "hdumok",
+  "license": "ISC",
+  "keywords": [
+    "weixin",
+    "wechat",
+    "enterprise",
+    "api"
+  ],
+  "dependencies": {
+    "formstream": ">=0.0.8",
+    "urllib": ">=0.5.17"
+  }
+}
